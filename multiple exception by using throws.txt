@@ -1,0 +1,34 @@
+public class Exception4
+{
+	public static void checkage(int n) throws YoungageException,ArithmeticException
+	{
+		try
+		{
+			System.out.println(100/0);
+		}
+		catch(Exception e)
+		{
+			System.out.println(e);	
+		}
+		if(n<18)
+		throw new YoungageException("You are not below 18 ");
+		else
+		System.out.println(" You are eligablle ");
+	
+	}  
+	
+
+	public static void main(String[] args)
+	{
+		try
+		{
+			checkage(20);
+		}
+		catch( Exception e)
+		{
+			System.out.println(e);
+		}
+ 		
+	}
+
+}

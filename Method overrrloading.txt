@@ -1,0 +1,36 @@
+class Meth 
+
+	{
+	
+  public static void display( )
+    {
+		int a=10;int b=20;
+		int c=a+b;
+        System.out.println("Addition is : "+c);
+    }
+
+		public static void display(int a, int b ,int d)
+	{
+		int c=a+b+d;
+
+        System.out.println("Addition is : "+c);
+    }
+
+	public static void display(int a, int b ,int d,int e)
+	{
+		int c=a+b+d+e;
+
+        System.out.println("Addition is : "+c);
+    }
+
+    public static void main(String[] args) 
+    {
+		 display( );
+        	display(20,30,50);
+		display(50,50,50,50);
+    }
+
+}
+
+
+

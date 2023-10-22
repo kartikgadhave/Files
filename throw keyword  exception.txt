@@ -1,0 +1,18 @@
+public class Exception3
+{
+	public static void checkage(int n)
+	{
+		if(n<18)
+		throw new YoungageException("You are not below 18 ");
+		else
+		System.out.println(" You are eligablle ");
+	
+	}  
+	public static void main(String[] args)
+	{
+			checkage(17);
+	}	
+ 
+
+
+}

@@ -1,0 +1,13 @@
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class File9 
+{
+    public static void main(String[] args) throws IOException
+    {
+        FileWriter fw=new FileWriter("k.txt");
+        String s="I love SIPNA";
+        fw.write(s);
+        fw.close();       
+    }
+}

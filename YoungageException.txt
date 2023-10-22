@@ -1,0 +1,8 @@
+class YoungageException extends RuntimeException
+{
+	public YoungageException(String msg)
+	{
+		super(msg);
+
+	} 
+}
