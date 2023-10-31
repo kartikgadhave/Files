@@ -7,7 +7,7 @@ public class File7
     {
         FileOutputStream fos=new FileOutputStream("Kartik1.txt");
         BufferedOutputStream bos=new BufferedOutputStream(fos); 
-        String s="kartik is a goog software engineer";
+        String s="kartik is a google mnc software engineer";
         byte b[]=s.getBytes();
         bos.write(b);
         bos.close();
